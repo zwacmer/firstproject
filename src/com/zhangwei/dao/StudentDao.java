@@ -1,5 +1,9 @@
 package com.zhangwei.dao;
 
-public interface StudentDao {
+import java.util.List;
 
+import com.zhnagwei.entity.Student;
+
+public interface StudentDao {
+	public List<Student> selectall();
 }
